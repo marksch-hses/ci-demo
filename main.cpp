@@ -13,7 +13,8 @@ int main() {
     double lonEsslingen = 9.311;
 
     weather.getWeatherData(latEsslingen, lonEsslingen);
-    presenter.displayWeather(weather.getWeatherInfo(), "Esslingen University");
+    presenter.displayWeather(weather.getWeatherInfo(), "Esslingen University")
+    ;
 
     // Lahaina, Hawaii - coordinates
     double latLahaina = 20.878;

@@ -17,7 +17,7 @@ int main() {
 
     // Lahaina, Hawaii - coordinates
     double latLahaina = 20.878;
-    double lonLahaina = -156.683;
+    double lonLahaina = -156.6283;
 
     weather.getWeatherData(latLahaina, lonLahaina);
     presenter.displayWeather(weather.getWeatherInfo(), "Lahaina, Hawaii");
